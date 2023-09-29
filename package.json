@@ -1,0 +1,18 @@
+{
+    "name": "means",
+    "version": "1.0.0",
+    "description": "Command line tool to translate text to your language.",
+    "main": "index.js",
+    "scripts": {
+        "build": "ncc build ./src/index.ts"
+    },
+    "keywords": [],
+    "author": "erikeah",
+    "license": "GPL",
+    "devDependencies": {
+        "@types/node": "^20.7.1",
+        "@vercel/ncc": "^0.38.0",
+        "getopts": "^2.3.0",
+        "typescript": "^5.2.2"
+    }
+}
